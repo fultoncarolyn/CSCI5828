@@ -4,7 +4,7 @@
 
 ### Questions
 
-1. Essential Difficulties
+### 1. Essential Difficulties
 
 *Definition:* intrinsic, unavoidable challenges due to the  inherent complexity of problems faced within software engineering. Problems due to the task which cannot be aided or improved upon by tools or techniques.
 
@@ -12,7 +12,7 @@ Brooks emphasizes that no amount of improvements in tools or practices can elimi
 
 Software complexity is a common example of this as systems become larger and more interconnected, they inherently become more difficult to design and understand, regardless of how much better your programming language or development environment is.
 
-2. Accidental Difficulties
+### 2. Accidental Difficulties
 
 *Definition:* challenges in development from the tools, methods, and practices we use to create software and limitations within environment, languages, and processes used for development. These may be alleviated with improvement in technology but such improvements are likely to introduce new difficulties to this category.
 
@@ -20,7 +20,7 @@ Though these challenges present themselves through the development process due t
 
 One example of this is programming language design which without careful consideration and design can be prone to bugs and have steep learning curves for developers. Though this has mitigated with time and improvement to such tools, it still presents itself to newer developers and in new ways with new languages.
 
-3. Brooks' Four Essential Difficulties
+### 3. Brooks' Four Essential Difficulties
 
 - **Complexity:** As the need to represent real-world problems in an abstract way increases, software must account for various possibilities and edge cases which causes an exponential increase in complexity with growing systems, making it more difficult to accurately and completely represent systems.
 
@@ -38,7 +38,7 @@ One example of this is programming language design which without careful conside
 
 *Example:* tracking how data flows across servers and debugging errors that occur in one part of the system can be challenging, especially when it's hard to visualize the interactions between all components.
 
-4. Silver Bullets and Chemists
+### 4. Silver Bullets and Chemists
 
 Brooks' metaphorical construct of a silver bullet dramatically imposses the desire for a singular, concise solution to all issues in software engineering and its development. As one may take care of a werewolf with one silver bullet, Brooks looks to indicate that the luxury used to kill such a mythical creature does not exist in the realm of software engineering.
 
@@ -46,7 +46,7 @@ Brooks argues that there does not exist a silver bullet and that there likely ne
 
 Brooks creates an analogy based on chemists, who primarily produce fundamental research and underlying science, and chemical engineers, who apply these principles to practical problems in design and technology. He compares this to the relationship between software engineers and computer scientists by describing the theoretical foundations originating through the work of computer scientists and the active implacation of these tools, structures and algorithms by the software engineers. This comparison communicates his point of both comparisons relate interdependent fields to one another.
 
-5. Four More Important Concepts
+### 5. Four More Important Concepts
 
 - **Abstractions:** 
 
