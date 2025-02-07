@@ -1,0 +1,34 @@
+git init
+git add .
+git commit -m "Initial commit"
+
+git tag v.1.0.0
+
+git log --oneline --graph --all
+
+git add .
+git commit -m "Added email attribute and create_user post request"
+
+git add .
+git commit -m "Update a user"
+
+git tag v1.1.0
+
+git checkout 9608bfece147711839a58ba095e87837a0b77343
+git branch add-admin-role
+git checkout add-admin-role
+
+git add .
+git commit -m "Added is_admin attribute to user"
+
+git tag v1.0.1
+
+git rebase master
+git checkout master
+git merge add-admin-role --ff-only
+
+git tag v1.1.1
+
+git branch --delete add-admin-role
+
+git log --oneline --graph --all
